@@ -5,18 +5,23 @@ body {
 }
 
 #content {
-    margin: 200px auto;
-    padding: 30px 0 30px 0;
-    width: 50%;
-    min-width: 300px;
-    text-align: center;
-    background-color: snow;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin: 200px auto;
+  padding: 30px 0 30px 0;
+  width: 50%;
+  min-width: 300px;
+  text-align: center;
+  background-color: snow;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
+<<<<<<< HEAD
 #scene>img {
 	margin-top: 10px;
+=======
+#content>img {
+	margin: 50px;
+>>>>>>> origin/master
 }
 
 div#scene {
@@ -28,6 +33,7 @@ div#scene {
 	font-size: 2rem;
 	font-family: Montserrat;
 	color:hotpink;
+	margin-top: 10px;
 }
 
 #content>p {
