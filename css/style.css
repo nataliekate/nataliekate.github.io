@@ -15,8 +15,13 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-#content>img {
+#scene>img {
 	margin-top: 10px;
+}
+
+div#scene {
+    padding-left: 40%;
+    margin: 20px 0 20px 0;
 }
 
 #content>header {
@@ -27,6 +32,6 @@ body {
 
 #content>p {
 	font-family: Open Sans;
-	line-height: 0.6rem;
+	line-height: 1rem;
 	color:hotpink;
 }
