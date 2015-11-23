@@ -15,15 +15,6 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-<<<<<<< HEAD
-#scene>img {
-	margin-top: 10px;
-=======
-#content>img {
-	margin: 50px;
->>>>>>> origin/master
-}
-
 div#scene {
     padding-left: 40%;
     margin: 20px 0 20px 0;
