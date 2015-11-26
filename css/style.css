@@ -1,18 +1,43 @@
 body {
-	margin:0;
-	padding:0;
-	background: papayawhip;
+    margin: 0;
+    padding: 0;
+    background: papayawhip;
 }
 
 #content {
-  margin: 200px auto;
-  padding: 30px 0 30px 0;
-  width: 50%;
-  min-width: 300px;
-  text-align: center;
-  background-color: snow;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin: 200px auto;
+    padding: 30px 10px;
+    width: 50%;
+    min-width: 300px;
+    text-align: center;
+    background-color: snow;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#ribbon {
+    position: absolute;
+    background-color: cornsilk;
+    border: 2px dotted darksalmon;
+    top: 27px;
+    left: -39px;
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(-45deg);
+    padding: 5px 38px;
+    box-shadow: 1px 0px 5px lightcoral;
+}
+
+#ribbon>a {
+
+    text-decoration: none;
+    color: salmon;
+}
+
+#ribbon>a:hover {
+	
+    text-decoration: none;
+    color: turquoise;
 }
 
 div#scene {
@@ -21,14 +46,14 @@ div#scene {
 }
 
 #content>header {
-	font-size: 2rem;
-	font-family: Montserrat;
-	color:hotpink;
-	margin-top: 10px;
+    font-size: 2rem;
+    font-family: Montserrat;
+    color: hotpink;
+    margin-top: 10px;
 }
 
 #content>p {
-	font-family: Open Sans;
-	line-height: 1rem;
-	color:hotpink;
+    font-family: Open Sans;
+    line-height: 1rem;
+    color: hotpink;
 }
