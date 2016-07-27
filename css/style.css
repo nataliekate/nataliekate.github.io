@@ -19,12 +19,12 @@ body {
     position: absolute;
     background-color: cornsilk;
     border: 2px dotted darksalmon;
-    top: 27px;
-    left: -39px;
+    top: 30px;
+    left: -43px;
     -ms-transform: rotate(7deg);
     -webkit-transform: rotate(7deg);
     transform: rotate(-45deg);
-    padding: 5px 38px;
+    padding: 0px 50px;
     box-shadow: 1px 0px 5px lightcoral;
 }
 
