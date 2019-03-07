@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: papayawhip;
+    background: #F1F1F1;
 }
 
 #content {
@@ -10,34 +10,34 @@ body {
     width: 50%;
     min-width: 300px;
     text-align: center;
-    background-color: snow;
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 #ribbon {
     position: absolute;
-    background-color: cornsilk;
-    border: 2px dotted darksalmon;
+    background-color: #1C4E80;
+    border: 2px dotted floralwhite;
     top: 30px;
     left: -43px;
     -ms-transform: rotate(7deg);
     -webkit-transform: rotate(7deg);
     transform: rotate(-45deg);
-    padding: 0px 50px;
-    box-shadow: 1px 0px 5px lightcoral;
+    padding: 10px 50px;
+    box-shadow: 1px 0px 5px #A5D8DD;
 }
 
 #ribbon>a {
 
     text-decoration: none;
-    color: salmon;
+    color: antiquewhite;
 }
 
 #ribbon>a:hover {
 	
     text-decoration: none;
-    color: turquoise;
+    color: #A5D8DD;
 }
 
 div#scene {
@@ -48,12 +48,12 @@ div#scene {
 #content>header {
     font-size: 2rem;
     font-family: Montserrat;
-    color: hotpink;
+    color: #EA6A47;
     margin-top: 10px;
 }
 
 #content>p {
     font-family: Open Sans;
     line-height: 1rem;
-    color: hotpink;
+    color: #EA6A47;
 }
