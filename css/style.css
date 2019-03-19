@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: #FFFFFF;
     background-image: radial-gradient(#9e9e9e 7.2%, transparent 0);
-    background-size: 21px 21px;
+    background-size: 22px 22px;
 }
 
 #ribbon {
@@ -24,7 +24,8 @@ body {
     color: antiquewhite;
 }
 
-#main_content {
+#landing,
+#introduction {
     width: 100vw;
     height: 95vh;
     display: flex;
@@ -32,16 +33,24 @@ body {
     justify-content: center;
 }
 
-#landing_page {
+#banner {
     width: 500px;
     height: 100px;
     background: rgba(219, 71, 59, 0.75);
     color: floralwhite;
     text-align: center;
     border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    opacity: 0;
+    transition: opacity 2s ease-in;
 }
 
-#landing_page>h1 {
+#banner>h1 {
     font: 45px 'Fredoka One', cursive;
     margin-top: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 16px 16px;
+    }
 }
