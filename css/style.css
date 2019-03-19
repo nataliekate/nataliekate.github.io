@@ -15,7 +15,7 @@ body {
     -ms-transform: rotate(7deg);
     -webkit-transform: rotate(7deg);
     transform: rotate(-45deg);
-    padding: 8px 50px;
+    padding: 10px 50px;
     box-shadow: 1px 0px 5px #333333;
 }
 
@@ -34,8 +34,8 @@ body {
 }
 
 #banner {
-    width: 500px;
-    height: 100px;
+    width: 600px;
+    height: 140px;
     background: rgba(219, 71, 59, 0.75);
     color: floralwhite;
     text-align: center;
@@ -45,8 +45,8 @@ body {
 }
 
 #banner>h1 {
-    font: 45px 'Fredoka One', cursive;
-    margin-top: 22px;
+    font: 60px 'Fredoka One', cursive;
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {
